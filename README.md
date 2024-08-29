@@ -40,13 +40,15 @@
 6. Попробуйте запустить playbook на этом окружении с флагом `--check`.
 
 Запускаем с ключом --check, пробный запуск, проверка на наличие ошибок перед запуском
+    
+<img width="823" alt="task6-1" src="https://github.com/user-attachments/assets/1618d127-b66b-44ac-9dd0-db63b96dae3e">
 
-    <img width="823" alt="task6-1" src="https://github.com/user-attachments/assets/23413921-3524-4763-9a41-0c5b2045e402">
-
+    
 Устанавливаем clickhouse и vector
 
-    <img width="617" alt="task6" src="https://github.com/user-attachments/assets/8c18cd81-f2db-4d7a-81b3-a40e239b91dd">
+<img width="617" alt="task6" src="https://github.com/user-attachments/assets/058b6eb6-3678-4b75-9456-d2d12f8c49df">
 
+    
 7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.
     Используем флаг --diff, что позволит увидеть содержимое конфигов, изменяемые права и владение файлов по ходу выполнения плэйбука
 
