@@ -35,19 +35,27 @@
 
    В процессе проверки найдена ошибка. Далее исправлена.
    
-   <img width="541" alt="task5" src="https://github.com/user-attachments/assets/46d6e43e-a574-4dbe-9cb6-252ab83fcf9e">
+    <img width="541" alt="task5" src="https://github.com/user-attachments/assets/46d6e43e-a574-4dbe-9cb6-252ab83fcf9e">
 
-7. Попробуйте запустить playbook на этом окружении с флагом `--check`.
+6. Попробуйте запустить playbook на этом окружении с флагом `--check`.
 
 Запускаем с ключом --check, пробный запуск, проверка на наличие ошибок перед запуском
 
-<img width="823" alt="task6-1" src="https://github.com/user-attachments/assets/23413921-3524-4763-9a41-0c5b2045e402">
+    <img width="823" alt="task6-1" src="https://github.com/user-attachments/assets/23413921-3524-4763-9a41-0c5b2045e402">
 
 Устанавливаем clickhouse и vector
 
-<img width="617" alt="task6" src="https://github.com/user-attachments/assets/8c18cd81-f2db-4d7a-81b3-a40e239b91dd">
+    <img width="617" alt="task6" src="https://github.com/user-attachments/assets/8c18cd81-f2db-4d7a-81b3-a40e239b91dd">
 
-9. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.
-10. Повторно запустите playbook с флагом `--diff` и убедитесь, что playbook идемпотентен.
-11. Подготовьте README.md-файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги. Пример качественной документации ansible playbook по [ссылке](https://github.com/opensearch-project/ansible-playbook). Так же приложите скриншоты выполнения заданий №5-8
+7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.
+    Используем флаг --diff, что позволит увидеть содержимое конфигов, изменяемые права и владение файлов по ходу выполнения плэйбука
+
+    <img width="572" alt="task7" src="https://github.com/user-attachments/assets/03bcbda2-9fe2-4937-9050-f451a99df138">
+
+9. Повторно запустите playbook с флагом `--diff` и убедитесь, что playbook идемпотентен.
+
+    <img width="668" alt="task8" src="https://github.com/user-attachments/assets/246cb133-cbaa-4240-a097-e395aab6143f">
+
+   
+10. Подготовьте README.md-файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги. Пример качественной документации ansible playbook по [ссылке](https://github.com/opensearch-project/ansible-playbook). Так же приложите скриншоты выполнения заданий №5-8
 12. Готовый playbook выложите в свой репозиторий, поставьте тег `08-ansible-02-playbook` на фиксирующий коммит, в ответ предоставьте ссылку на него.
